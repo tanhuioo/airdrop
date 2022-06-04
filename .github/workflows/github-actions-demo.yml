@@ -10,7 +10,7 @@ jobs:
          uses: actions/setup-java@v1
          with:
            java-version: 11
-       - uses: ashley-taylor/junit-report-annotations-action@main
+       - uses: ashley-taylor/junit-report-annotations-action@master
          with: 
           access-token: ${{ secrets.GITHUB_TOKEN }}
          if: always()
