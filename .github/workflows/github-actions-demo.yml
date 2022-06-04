@@ -10,6 +10,8 @@ jobs:
          uses: actions/setup-java@v1
          with:
            java-version: 11
+       - name: code test 
+         run: cd ${{ github.workspace }}/swufeShare/src/main/java/com/swufe/servlet && cat FileServletTest.java
        - uses: ashley-taylor/junit-report-annotations-action@master
          with: 
           access-token: ${{ secrets.GITHUB_TOKEN }}
