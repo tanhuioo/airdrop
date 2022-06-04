@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java文件上传和下载.iml" filepath="$PROJECT_DIR$/Java文件上传和下载.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swufeShare.iml" filepath="$PROJECT_DIR$/swufeShare.iml" />
+    </modules>
+  </component>
+</project>

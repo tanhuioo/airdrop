@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="swufeShare:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>swufeShare</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="swufeShare.war">
+      <element id="artifact" artifact-name="swufeShare:war exploded" />
+    </root>
+  </artifact>
+</component>
